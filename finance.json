@@ -1,0 +1,218 @@
+{
+  "Accounts": [
+    {
+      "Id": "1cbc5fe1-e351-46e2-b677-36a62d736bbb",
+      "Name": "Основной счёт",
+      "Balance": 50000
+    },
+    {
+      "Id": "a2d4e8c1-f0a9-4b9e-8d7c-1e2f3a4b5c6d",
+      "Name": "Сберегательный счёт",
+      "Balance": 750
+    },
+    {
+      "Id": "b3e5f9d2-a1b0-5c8f-9e8d-2f3a4b5c6d7e",
+      "Name": "Кредитная карта",
+      "Balance": 950
+    }
+  ],
+  "Categories": [
+    {
+      "Id": "b144f520-5e41-4c7e-8034-8c038fab8f8a",
+      "Type": 0,
+      "Name": "Зарплата"
+    },
+    {
+      "Id": "c255a631-6f52-5d8f-9145-9d14902c9a9b",
+      "Type": 0,
+      "Name": "Подарки"
+    },
+    {
+      "Id": "d366b742-7a63-6e9a-a256-ad25013d0b0c",
+      "Type": 0,
+      "Name": "Проценты по вкладу"
+    },
+    {
+      "Id": "0e1f2d3c-4b5a-6e7f-8d9c-0a1b2c3d4e5f",
+      "Type": 0,
+      "Name": "Переводы"
+    },
+    {
+      "Id": "4831c237-e3af-49d7-bf3e-7e7a8ab72318",
+      "Type": 1,
+      "Name": "Кафе и рестораны"
+    },
+    {
+      "Id": "5942d348-f4b0-4a88-c04f-8f8b9bc83429",
+      "Type": 1,
+      "Name": "Продукты"
+    },
+    {
+      "Id": "6a53e459-05c1-5b99-d150-909c0cd9453a",
+      "Type": 1,
+      "Name": "Транспорт"
+    },
+    {
+      "Id": "7b64f56a-16d2-6ca0-e261-a1ad1de0564b",
+      "Type": 1,
+      "Name": "Развлечения"
+    },
+    {
+      "Id": "8c75067b-27e3-7db1-f372-b2be2ef1675c",
+      "Type": 1,
+      "Name": "Коммунальные платежи"
+    },
+    {
+      "Id": "9d86178c-38f4-8ec2-0483-c3cf3f02786d",
+      "Type": 1,
+      "Name": "Покупки"
+    },
+    {
+      "Id": "ae97289d-4905-9fd3-1594-d4d04013897e",
+      "Type": 1,
+      "Name": "Здоровье и спорт"
+    },
+    {
+      "Id": "bf0839a0-5a16-00e4-26a5-e5e15124988f",
+      "Type": 1,
+      "Name": "Переводы"
+    }
+  ],
+  "Operations": [
+    {
+      "Id": "f3d8a858-2115-4853-89a8-c6773cfb9f6b",
+      "Type": 0,
+      "BankAccountId": "1cbc5fe1-e351-46e2-b677-36a62d736bbb",
+      "Amount": 50000,
+      "Date": "2025-11-05T10:00:00+03:00",
+      "Description": "Аванс",
+      "CategoryId": "b144f520-5e41-4c7e-8034-8c038fab8f8a"
+    },
+    {
+      "Id": "b7222124-47f2-46a7-8bfa-deb379ecb25d",
+      "Type": 1,
+      "BankAccountId": "1cbc5fe1-e351-46e2-b677-36a62d736bbb",
+      "Amount": -1200,
+      "Date": "2025-11-05T13:45:10.123456+03:00",
+      "Description": "Обед в столовой",
+      "CategoryId": "4831c237-e3af-49d7-bf3e-7e7a8ab72318"
+    },
+    {
+      "Id": "c8333235-5803-57b8-9c0b-efc48a0dc36e",
+      "Type": 1,
+      "BankAccountId": "1cbc5fe1-e351-46e2-b677-36a62d736bbb",
+      "Amount": -3500,
+      "Date": "2025-11-06T19:20:30.54321+03:00",
+      "Description": "Закупка продуктов на неделю",
+      "CategoryId": "5942d348-f4b0-4a88-c04f-8f8b9bc83429"
+    },
+    {
+      "Id": "62d33c3f-a2b1-4e89-9e3d-0f1e2d3c4b5a",
+      "Type": 0,
+      "BankAccountId": "b3e5f9d2-a1b0-5c8f-9e8d-2f3a4b5c6d7e",
+      "Amount": 16000,
+      "Date": "2025-11-07T08:00:00+03:00",
+      "Description": "Пополнение с основного счёта",
+      "CategoryId": "0e1f2d3c-4b5a-6e7f-8d9c-0a1b2c3d4e5f"
+    },
+    {
+      "Id": "73e44d40-b3c2-5f9a-ae4e-102f3e4d5c6b",
+      "Type": 1,
+      "BankAccountId": "1cbc5fe1-e351-46e2-b677-36a62d736bbb",
+      "Amount": -16000,
+      "Date": "2025-11-07T08:00:00+03:00",
+      "Description": "Перевод на кредитную карту",
+      "CategoryId": "bf0839a0-5a16-00e4-26a5-e5e15124988f"
+    },
+    {
+      "Id": "d9444346-6914-68c9-ad1c-f0d59b1ed47f",
+      "Type": 1,
+      "BankAccountId": "b3e5f9d2-a1b0-5c8f-9e8d-2f3a4b5c6d7e",
+      "Amount": -550,
+      "Date": "2025-11-07T08:10:05.678901+03:00",
+      "Description": "Пополнение транспортной карты",
+      "CategoryId": "6a53e459-05c1-5b99-d150-909c0cd9453a"
+    },
+    {
+      "Id": "ea555457-7a25-79da-be2d-01e6ac2fe580",
+      "Type": 0,
+      "BankAccountId": "1cbc5fe1-e351-46e2-b677-36a62d736bbb",
+      "Amount": 75000,
+      "Date": "2025-11-20T10:00:00+03:00",
+      "Description": "Основная часть зарплаты",
+      "CategoryId": "b144f520-5e41-4c7e-8034-8c038fab8f8a"
+    },
+    {
+      "Id": "fb666568-8b36-8aeb-cf3e-12f7bd30f691",
+      "Type": 1,
+      "BankAccountId": "b3e5f9d2-a1b0-5c8f-9e8d-2f3a4b5c6d7e",
+      "Amount": -2500,
+      "Date": "2025-11-10T20:00:00+03:00",
+      "Description": "Билеты в кино",
+      "CategoryId": "7b64f56a-16d2-6ca0-e261-a1ad1de0564b"
+    },
+    {
+      "Id": "0c777679-9c47-9bf0-d04f-2308ce4107a2",
+      "Type": 1,
+      "BankAccountId": "1cbc5fe1-e351-46e2-b677-36a62d736bbb",
+      "Amount": -6500,
+      "Date": "2025-11-12T11:30:00+03:00",
+      "Description": "Оплата ЖКХ",
+      "CategoryId": "8c75067b-27e3-7db1-f372-b2be2ef1675c"
+    },
+    {
+      "Id": "1d88878a-ad58-ac01-e150-3419df5218b3",
+      "Type": 1,
+      "BankAccountId": "b3e5f9d2-a1b0-5c8f-9e8d-2f3a4b5c6d7e",
+      "Amount": -12000,
+      "Date": "2025-11-15T16:00:00+03:00",
+      "Description": "Новые кроссовки",
+      "CategoryId": "9d86178c-38f4-8ec2-0483-c3cf3f02786d"
+    },
+    {
+      "Id": "2e99989b-be69-bd12-f261-452ae06329c4",
+      "Type": 0,
+      "BankAccountId": "a2d4e8c1-f0a9-4b9e-8d7c-1e2f3a4b5c6d",
+      "Amount": 750,
+      "Date": "2025-11-28T23:59:59+03:00",
+      "Description": "Ежемесячные проценты",
+      "CategoryId": "d366b742-7a63-6e9a-a256-ad25013d0b0c"
+    },
+    {
+      "Id": "3fa0090c-cf7a-ce23-0372-563bf1743ad5",
+      "Type": 1,
+      "BankAccountId": "1cbc5fe1-e351-46e2-b677-36a62d736bbb",
+      "Amount": -3000,
+      "Date": "2025-11-18T18:00:00+03:00",
+      "Description": "Ужин с друзьями",
+      "CategoryId": "4831c237-e3af-49d7-bf3e-7e7a8ab72318"
+    },
+    {
+      "Id": "40b11a1d-e08b-df34-1483-674c02854be6",
+      "Type": 1,
+      "BankAccountId": "1cbc5fe1-e351-46e2-b677-36a62d736bbb",
+      "Amount": -4500,
+      "Date": "2025-11-22T14:15:00+03:00",
+      "Description": "Абонемент в спортзал",
+      "CategoryId": "ae97289d-4905-9fd3-1594-d4d04013897e"
+    },
+    {
+      "Id": "51c22b2e-f19c-e045-2594-785d13965cf7",
+      "Type": 0,
+      "BankAccountId": "1cbc5fe1-e351-46e2-b677-36a62d736bbb",
+      "Amount": 5000,
+      "Date": "2025-11-25T12:00:00+03:00",
+      "Description": "Подарок на день рождения от коллег",
+      "CategoryId": "c255a631-6f52-5d8f-9145-9d14902c9a9b"
+    },
+    {
+      "Id": "f9213fc1-9875-4038-8bca-ad15d66fc1b5",
+      "Type": 1,
+      "BankAccountId": "1cbc5fe1-e351-46e2-b677-36a62d736bbb",
+      "Amount": -45300,
+      "Date": "2025-11-09T00:53:37.952865+03:00",
+      "Description": "Перевод Мед. Организации",
+      "CategoryId": "bf0839a0-5a16-00e4-26a5-e5e15124988f"
+    }
+  ]
+}
