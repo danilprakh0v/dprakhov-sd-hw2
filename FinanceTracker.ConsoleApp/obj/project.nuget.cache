@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3yexSwORB0E=",
+  "success": true,
+  "projectFilePath": "/Users/danilprakhov/RiderProjects/SD-HW-FinanceTracker-PrakhovDanil/FinanceTracker.ConsoleApp/FinanceTracker.ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/danilprakhov/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.0-rc.2.25502.107/microsoft.extensions.dependencyinjection.10.0.0-rc.2.25502.107.nupkg.sha512",
+    "/Users/danilprakhov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0-rc.2.25502.107/microsoft.extensions.dependencyinjection.abstractions.10.0.0-rc.2.25502.107.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,6 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SD-HW-FinanceTracker-PrakhovDanil", "SD-HW-FinanceTracker-PrakhovDanil\SD-HW-FinanceTracker-PrakhovDanil.csproj", "{30E3B04B-B5E5-430F-A45E-21281BEC4290}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceTracker.ConsoleApp", "FinanceTracker.ConsoleApp\FinanceTracker.ConsoleApp.csproj", "{30E3B04B-B5E5-430F-A45E-21281BEC4290}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceTracker.Core", "FinanceTracker.Core\FinanceTracker.Core.csproj", "{43ED9D2B-AF69-4375-8585-D32A839A5042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceTracker.Application", "FinanceTracker.Application\FinanceTracker.Application.csproj", "{D941C4C6-BACD-45A1-B43E-E03C5666F64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceTracker.Infrastructure", "FinanceTracker.Infrastructure\FinanceTracker.Infrastructure.csproj", "{DF82F83C-F11E-4BEA-AE58-C6402D0064E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceTracker.Tests", "FinanceTracker.Tests\FinanceTracker.Tests.csproj", "{0EAEA831-C181-4B16-A0A4-AD771C36BC71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +20,21 @@ Global
 		{30E3B04B-B5E5-430F-A45E-21281BEC4290}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30E3B04B-B5E5-430F-A45E-21281BEC4290}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30E3B04B-B5E5-430F-A45E-21281BEC4290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43ED9D2B-AF69-4375-8585-D32A839A5042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43ED9D2B-AF69-4375-8585-D32A839A5042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43ED9D2B-AF69-4375-8585-D32A839A5042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43ED9D2B-AF69-4375-8585-D32A839A5042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D941C4C6-BACD-45A1-B43E-E03C5666F64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D941C4C6-BACD-45A1-B43E-E03C5666F64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D941C4C6-BACD-45A1-B43E-E03C5666F64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D941C4C6-BACD-45A1-B43E-E03C5666F64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF82F83C-F11E-4BEA-AE58-C6402D0064E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF82F83C-F11E-4BEA-AE58-C6402D0064E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF82F83C-F11E-4BEA-AE58-C6402D0064E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF82F83C-F11E-4BEA-AE58-C6402D0064E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EAEA831-C181-4B16-A0A4-AD771C36BC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EAEA831-C181-4B16-A0A4-AD771C36BC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EAEA831-C181-4B16-A0A4-AD771C36BC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EAEA831-C181-4B16-A0A4-AD771C36BC71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
